@@ -3,6 +3,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@300&display=swap');
 
+.backButton{
+  border: solid black 1px;
+  border-radius: 20px;
+  padding: 10px 12px;
+  width: 20%;
+  height: 10%;
+  color: #000000;
+  background-color: transparent;
+  margin: 0 auto 2rem;
+  font-family: 'Ysabeau';
+  font-size: 1.2rem;
+}
 
 .wrapper{
 width: 90%;
