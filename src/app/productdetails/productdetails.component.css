@@ -27,9 +27,6 @@ padding: 2rem;
 flex-direction:column;
 }
 
-ul li.reverse .wrapper {
-flex-direction: row-reverse;
-}
 
 .contentDiv{
 width: 100%;
@@ -53,7 +50,7 @@ margin-bottom: 1.5rem;
 }
 
 
-.contentDiv ul{
+.contentDiv .features ul{
 padding-left: 1rem ;
 justify-content: left; 
 text-align: left;
@@ -62,7 +59,7 @@ list-style-type:disc;
 
 }
 
-.contentDiv li{
+.contentDiv .features li{
 text-align: left;
 list-style-type: disc;
 

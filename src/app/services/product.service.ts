@@ -174,6 +174,13 @@ export class ProductService {
       imageUrl: '../assets/images/product-1.jpg',
       categories: ['landscape architecture', 'urbanism'],
       features: ['low-maintenance', 'reduces heat island effect'],
+      steps: [
+        "Conduct an assessment of the building's structure and load-bearing capacity",
+        "Select appropriate plants and growing media for the green roof",
+        "Design the green roof system, including irrigation and drainage",
+        "Install the green roof system, working with a team of experienced professionals",
+        "Provide ongoing maintenance and support to ensure the health and longevity of the green roof"
+      ]
     },
     {
       id: 2,
@@ -184,6 +191,14 @@ export class ProductService {
       imageUrl: '../assets/images/product-2.jpg',
       categories: ['landscape architecture', 'urbanism'],
       features: ['accessible', 'sustainable materials'],
+      steps: [
+        "Conduct a site analysis and assess the needs and goals of the project",
+        "Develop a conceptual design plan that includes features such as walking paths, seating areas, water features, and plantings",
+        "Present the design plan to the client and gather feedback",
+        "Revise the design based on client feedback and finalize the plan",
+        "Construct the park using sustainable materials and techniques, and install features such as lighting, irrigation, and signage"
+      ]
+      
     },
     {
       id: 3,
@@ -194,6 +209,14 @@ export class ProductService {
       imageUrl: '../assets/images/product-3.jpg',
       categories: ['landscape architecture','park planning', 'urbanism'],
       features: ['accessible', 'sustainable materials'],
+      steps: [
+        "Assess the community's needs and interests for the garden.",
+        "Determine the site and create a design plan.",
+        "Prepare the soil, install irrigation, and construct garden beds.",
+        "Recruit volunteers and provide garden education and programming.",
+        "Maintain the garden and cultivate community partnerships."
+      ]
+      
     },
     {
       id: 4,
@@ -204,6 +227,14 @@ export class ProductService {
       imageUrl: '../assets/images/product-4.jpg',
       categories: ['landscape architecture', 'urbanism'],
       features: ['accessible', 'revitalization'],
+      steps: [
+        "Assess the current condition of the streetscape and identify areas that need improvement.",
+        "Develop a design plan that incorporates the community's input and goals for the project.",
+        "Obtain necessary permits and approvals from local government agencies.",
+        "Implement the design plan, including installation of new street furniture, planting of trees and plants, and upgrades to lighting and signage.",
+        "Provide ongoing maintenance to ensure the streetscape remains clean, safe, and attractive to residents and visitors."
+      ]
+      
     },
     {
       id: 5,
@@ -214,6 +245,14 @@ export class ProductService {
       imageUrl: '../assets/images/product-5.jpg',
       categories: ['landscape architecture', 'urbanism'],
       features: ['plaza planning', 'design'],
+      steps: [
+        "Research and analysis of the plaza's location, history, and context",
+        "Design concept development and presentation to stakeholders for feedback",
+        "Detailed design development, including materials selection, lighting, and landscaping",
+        "Coordination with relevant parties for construction and installation of design elements",
+        "Activation planning and execution, including programming and events to encourage use and engagement with the plaza"
+      ]
+      
     },
     {
       id: 6,
@@ -224,6 +263,14 @@ export class ProductService {
       imageUrl: '../assets/images/product-6.jpg',
       categories: ['waterfront architecture', 'urbanism'],
       features: ['accessible', 'sustainable materials'],
+      steps: [
+        "Assess the current state of the waterfront, including any existing infrastructure, natural resources, and potential challenges.",
+        "Engage with local stakeholders, including residents, business owners, and government officials, to understand their needs and vision for the waterfront.",
+        "Develop a comprehensive plan for the waterfront, including design concepts, engineering specifications, and cost estimates.",
+        "Manage the construction or renovation process, including oversight of contractors, compliance with regulations, and communication with stakeholders.",
+        "Coordinate ongoing maintenance and management of the waterfront, including upkeep of infrastructure and programming of events and activities."
+      ]
+      
     },
     {
       id: 7,
@@ -234,6 +281,14 @@ export class ProductService {
       imageUrl: '../assets/images/product-7.jpg',
       categories: ['landscape architecture', 'urbanism'],
       features: ['transportation', 'sustainable materials'],
+      steps: [
+        "Conduct a site analysis and identify the most appropriate sustainable transportation options based on the location and client's needs.",
+        "Design a transportation plan that prioritizes low-impact and sustainable transportation modes, such as walking, cycling, and public transit.",
+        "Create detailed designs and plans for bike lanes, pedestrian walkways, transit stops, and other sustainable transportation infrastructure.",
+        "Collaborate with engineers and construction teams to ensure the sustainable transportation infrastructure is built according to plan.",
+        "Continuously monitor and evaluate the effectiveness of the transportation infrastructure, making adjustments as needed to ensure its sustainability and efficiency."
+      ]
+      
     },
     {
       id: 8,
@@ -244,6 +299,14 @@ export class ProductService {
       imageUrl: '../assets/images/product-8.jpg',
       categories: ['landscape architecture', 'urbanism'],
       features: ['inclusive design', 'sustainable materials'],
+      steps: [
+        "Research and analyze the existing campus layout and infrastructure",
+        "Identify and prioritize the goals and objectives of the master plan",
+        "Develop multiple design concepts and scenarios",
+        "Collaborate with stakeholders to gather feedback and refine the design",
+        "Produce a final master plan document with detailed design recommendations"
+      ]
+      
     },
     {
       id: 9,
@@ -254,6 +317,13 @@ export class ProductService {
       imageUrl: '../assets/images/product-9.jpg',
       categories: ['landscape architecture', 'urbanism'],
       features: ['Ecologic development'],
+      steps: [
+        "Assessment of the ecological site conditions and the extent of damage or alteration to determine appropriate restoration approaches",
+        "Developing a restoration and conservation plan, including selecting plant species, designing and implementing restoration techniques",
+        "Executing the restoration plan, which may include invasive species removal, soil remediation, and planting native vegetation",
+        "Monitoring the progress of the restoration to ensure success, make any necessary adjustments, and assess the ecological benefits of the project",
+        "Long-term management and maintenance of the restored area to ensure the success and longevity of the restoration and conservation efforts"
+        ]
     },
     {
       id: 10,
@@ -264,6 +334,14 @@ export class ProductService {
       imageUrl: '../assets/images/product-10.jpg',
       categories: ['construction', 'tiles'],
       features: ['Ecologic development'],
+      steps: [
+        "Assess the site's roof characteristics and its potential for ecological implementation of roof tiles",
+        "Collaborate with the client to determine the desired ecological outcomes and select appropriate plant species for the tiles",
+        "Install a drainage layer and growing medium to support plant growth",
+        "Install the ecological roof tiles, ensuring proper placement and coverage",
+        "Provide ongoing maintenance and monitoring to ensure the long-term success of the ecological roof tiles"
+      ]
+      
     },
     {
       id: 11,
@@ -274,6 +352,13 @@ export class ProductService {
       imageUrl: '../assets/images/product-11.jpg',
       categories: ['landscape architecture', 'urbanism'],
       features: ['accessible', 'child friendly'],
+      steps:[
+        "Site Assessment: Conduct a site assessment to identify existing structures, obstacles, and opportunities for a playground design.",
+        "Concept Design: Develop a concept design based on the site assessment and client needs, including selecting equipment, surfacing, and layout.",
+        "Community Engagement: Engage with the local community to gain input and feedback on the playground design.",
+        "Final Design and Installation: Refine the design and oversee installation of the playground equipment and surfacing.",
+        "Maintenance and Safety: Develop a maintenance and safety plan to ensure the playground is properly maintained and safe for use."
+      ]
     },
     {
       id: 12,
@@ -284,6 +369,14 @@ export class ProductService {
       imageUrl: '../assets/images/product-12.jpg',
       categories: ['landscape architecture', 'urbanism'],
       features: ['civil art design', 'sustainable materials'],
+      steps: [
+        "Conduct research to understand the local community and environment",
+        "Collaborate with local artists and stakeholders to develop project concepts",
+        "Create detailed design plans and proposals, including budgets and timelines",
+        "Secure necessary permits and approvals",
+        "Oversee the installation and placement of the artwork, including lighting and maintenance plans"
+      ]
+      
     },
     {
       id: 13,
@@ -294,6 +387,14 @@ export class ProductService {
       imageUrl: '../assets/images/product-13.jpg',
       categories: ['landscape architecture', 'urbanism'],
       features: ['Climate friendly', 'sustainable materials'],
+      steps: [
+        "Assess the local climate and weather patterns",
+        "Identify potential climate hazards and vulnerabilities",
+        "Develop strategies to mitigate climate risks and enhance resilience",
+        "Incorporate passive and active climate control measures into building design",
+        "Use renewable energy sources and reduce carbon footprint in the planning process"
+      ]
+      
     },
     {
       id: 14,
@@ -304,6 +405,14 @@ export class ProductService {
       imageUrl: '../assets/images/product-14.jpg',
       categories: ['Wayfinding', 'system design'],
       features: ['Management consulting', 'sustainable materials'],
+      steps: [
+        "Research and analyze the environment to determine the best wayfinding and signage solutions for the location.",
+        "Create a wayfinding strategy and signage plan, taking into account the needs of the users and the aesthetic of the environment.",
+        "Develop a comprehensive design for the wayfinding and signage system, including all necessary signage types and materials.",
+        "Work with manufacturers and fabricators to produce the necessary signage elements, ensuring quality and consistency throughout the project.",
+        "Install and implement the wayfinding and signage system, ensuring all elements are properly placed and meet all necessary regulations and guidelines."
+      ]
+      
     },
     {
       id: 15,
@@ -314,6 +423,13 @@ export class ProductService {
       imageUrl: '../assets/images/product-15.jpg',
       categories: ['landscape architecture', 'urbanism'],
       features: ['Biofilic Design', 'sustainable materials'],
+      steps: [
+        'Site analysis and assessment to identify opportunities for incorporating biophilic elements',
+        'Design development to integrate biophilic features and natural elements into the project',
+        'Material selection to promote healthy indoor air quality and to minimize the impact on the environment',
+        'Implementation of biophilic design elements, such as green walls, indoor plants, and natural lighting',
+        'Post-occupancy evaluation to measure the effectiveness of biophilic design in enhancing well-being and productivity'
+      ]
     }
   ];
 

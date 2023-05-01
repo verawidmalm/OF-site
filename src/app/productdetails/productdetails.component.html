@@ -14,11 +14,19 @@
             <div class="description">
              <p> {{product.description}}</p>
             </div>
+            <div class="steps">
+              <h3>What we provide: </h3>
+              <ol>
+                <li *ngFor="let step of product.steps">{{step}}</li>
+              </ol>
+            </div>
+            <div class="features">
             <ul *ngFor="let feature of product.features" >
               <li>
                 {{feature}}
               </li>
             </ul>
+          </div>
 
           </div>
           <div class="imageDiv">

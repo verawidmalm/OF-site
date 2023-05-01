@@ -8,5 +8,6 @@ export class Product {
     imageUrl!: string;
     categories?: string[];
     features?: string[];
+    steps!: string[];
 
 }
