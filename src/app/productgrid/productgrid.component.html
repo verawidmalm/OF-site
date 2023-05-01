@@ -1,0 +1,33 @@
+<div class="container-fluid">
+  <div class="row flex-grow-1">
+    <div class="col-12">
+      <ul>
+        <li *ngFor="let product of products; let odd = odd" [ngClass]="{ 'reverse': odd }">
+          <div class="wrapper">
+          <div class="contentDiv">
+            <div class="name">
+             <h2> {{product.name}}</h2>
+            </div>
+            <div class="price">
+             <p> {{product.price|currency}}</p>
+            </div>
+            <div class="description">
+             <p> {{product.description}}</p>
+            </div>
+            <ul *ngFor="let feature of product.features" >
+              <li>
+                {{feature}}
+              </li>
+            </ul>
+            <button routerLink="/product/{{product.id}}">More info</button>
+          </div>
+          <div class="imageDiv">
+            <img src="{{product.imageUrl}}" alt="{{product.name}}">
+          </div>
+        </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+

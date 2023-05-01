@@ -1,0 +1,40 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=DM+Sans&display=swap');
+
+
+
+h1{
+  font-family: 'DM Sans', sans-serif;
+}
+
+/* .container {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 1rem;
+
+  background-color: #4a4a4a;
+}
+ */
+.container {
+  margin: 2rem auto 0rem;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  background-color: #3b3a3af8;
+}
+
+
+p {
+  padding-left: 2rem;
+  height: 2rem;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1rem;
+  margin: auto;
+  color: #fff;
+  
+}
