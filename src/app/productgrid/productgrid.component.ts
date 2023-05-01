@@ -12,6 +12,14 @@ export class ProductgridComponent implements OnInit{
 constructor(private productService: ProductService){
 
 }
+truncateDescription(description: string, maxLength: number): string {
+  if (description.length <= maxLength) {
+    return description;
+  }
+  const truncated = description.substring(0, maxLength);
+  const lastSpace = truncated.lastIndexOf(' ');
+  return lastSpace === -1 ? truncated + '...' : truncated.substring(0, lastSpace) + '...';
+}
   products: Product[]= [];
 
   ngOnInit(): void {
