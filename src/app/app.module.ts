@@ -8,6 +8,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ProductgridComponent } from './productgrid/productgrid.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProductdetailsComponent } from './productdetails/productdetails.component';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { AddproductformComponent } from './addproductform/addproductform.component';
 
 
 
@@ -17,12 +19,14 @@ import { ProductdetailsComponent } from './productdetails/productdetails.compone
     HeaderComponent,
     ProductgridComponent,
     FooterComponent,
-    ProductdetailsComponent
+    ProductdetailsComponent,
+    AddproductformComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    NoopAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

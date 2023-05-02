@@ -16,19 +16,31 @@ h1{
   margin: 2rem auto 0rem;
   display: flex;
   width: 100%;
-  align-items: center;
+  justify-content: space-between;
   padding-top: 1rem;
   padding-bottom: 1rem;
   margin-bottom: 1rem;
   background-color: #3b3a3af8;
+  font-family: 'DM Sans', sans-serif;
 }
 
 h1 {
   padding-left: 2rem;
   height: 3rem;
-  font-family: 'DM Sans', sans-serif;
+
   font-size: 1.5 rem;
   margin: auto 0rem;
   color: #fff;
   background-color: #3b3a3a00;
+}
+
+.btn-primary{
+  background-color: transparent;
+  border: none;
+}
+
+.btn-primary:active{
+  background-color: whitesmoke;
+  color: black;
+
 }
