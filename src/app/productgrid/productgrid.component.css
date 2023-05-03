@@ -2,7 +2,11 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@300&display=swap');
-
+  .btn-primary{
+    background-color: transparent;
+    border: none;
+    color: black;
+  }
 
 ul{
   display: flex;
@@ -92,4 +96,18 @@ ul li.reverse .wrapper {
   font-size: 1.2rem;
   text-align: center;
   margin:auto;
+}
+
+.btn-primary{
+  border: solid black 1px;
+  border-radius: 20px;
+  padding: 10px 12px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 30%;
+  height: 10%;
+  color: #000000;
+  background-color: transparent;
+  font-family: 'Ysabeau';
+  font-size: 1.2rem;
 }

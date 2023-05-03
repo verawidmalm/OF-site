@@ -34,13 +34,3 @@ h1 {
   background-color: #3b3a3a00;
 }
 
-.btn-primary{
-  background-color: transparent;
-  border: none;
-}
-
-.btn-primary:active{
-  background-color: whitesmoke;
-  color: black;
-
-}

@@ -1,0 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@300&display=swap');
+
+.backButton{
+  border: solid black 1px;
+  border-radius: 20px;
+  padding: 10px 12px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 30%;
+  height: 10%;
+  color: #000000;
+  background-color: transparent;
+  font-family: 'Ysabeau';
+  font-size: 1.2rem;
+}
+
+h4{
+  margin-top: 1rem;
+}
+.form-group{
+  margin-bottom: 2rem;
+}

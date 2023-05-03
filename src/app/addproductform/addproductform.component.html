@@ -1,1 +1,186 @@
-<p>addproductform works!</p>
+
+<div class="row">
+
+  <div class="col-sm-6 offset-3">
+    <div class="col-sm-6 offset-3 text-center">
+      <button class="backButton" (click)="goBack()">
+        <span>&larr;</span> Back
+      </button>
+    </div>
+
+    <div class="text-center">
+      <h3>Add product</h3>
+
+    </div>
+    <form [formGroup]="contentForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="name"> Product name</label>
+        <input
+          type="text"
+          formControlName="name"
+          class="form-control"
+          id="name"
+          required
+          [ngClass]="{
+            'is-invalid':
+              contentForm.get('name')?.invalid &&
+              (contentForm.get('name')?.dirty ||
+                contentForm.get('name')?.touched),
+            'is-valid': contentForm.get('name')?.valid
+          }"
+        />
+
+        <div
+          class="invalid-feedback"
+          *ngIf="contentForm.get('name')?.hasError('required')"
+        >
+          Please enter a name for the product
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="price"> Price</label>
+        <input
+          type="number"
+          formControlName="price"
+          class="form-control"
+          id="price"
+          placeholder="Price in dollars"
+          required
+          [ngClass]="{
+            'is-invalid':
+              contentForm.get('price')?.invalid &&
+              (contentForm.get('price')?.dirty ||
+                contentForm.get('price')?.touched),
+            'is-valid': contentForm.get('price')?.valid
+          }"
+        />
+        <div
+          class="invalid-feedback"
+          *ngIf="contentForm.get('name')?.hasError('required')"
+        >
+          Please enter a price of the product
+        </div>
+
+        <div
+          class="invalid-feedback"
+          *ngIf="contentForm.get('name')?.hasError('minLength')"
+        >
+          Please enter a name with a minimum of 2 characters
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="description"> Product description</label>
+        <input
+          type="text"
+          formControlName="description"
+          class="form-control"
+          id="description"
+        />
+      </div>
+
+      <section formArrayName="tags">
+        <div class="row">
+          <div class="col-md-9">
+            <h4>Add tags</h4>
+          </div>
+          <div class="col-md-3">
+            <button class="btn btn-primary" (click)="addTag()">
+              + Add another tag
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="form-group"
+          *ngFor="let tag of getTags().controls; let i = index"
+        >
+          <label>Tag:</label>
+          <input type="text" [formControlName]="i" class="form-control" />
+        </div>
+      </section>
+
+      <section formArrayName="categories">
+        <div class="row">
+          <div class="col-md-9">
+            <h4>Add categories</h4>
+          </div>
+          <div class="col-md-3">
+            <button class="btn btn-primary" (click)="addCategory()">
+              + Add another category
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="form-group"
+          *ngFor="let category of getCategories().controls; let i = index"
+        >
+          <label>Category:</label>
+          <input type="text" [formControlName]="i" class="form-control" />
+        </div>
+      </section>
+
+      <section formArrayName="features">
+        <div class="row">
+          <div class="col-md-9">
+            <h4>Add features</h4>
+          </div>
+          <div class="col-md-3">
+            <button class="btn btn-primary" (click)="addFeature()">
+              + Add another feature
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="form-group"
+          *ngFor="let feature of getFeatures().controls; let i = index"
+        >
+          <label>Feature:</label>
+          <input type="text" [formControlName]="i" class="form-control" />
+        </div>
+      </section>
+
+      <section formArrayName="steps">
+        <div class="row">
+          <div class="col-md-9">
+            <h4>
+              Add how-to steps explaining how the service is conducted by us
+            </h4>
+          </div>
+          <div class="col-md-3">
+            <button class="btn btn-primary" (click)="addStep()">
+              + Add another step
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="form-group"
+          *ngFor="let step of getSteps().controls; let i = index"
+        >
+          <label>Explain step:</label>
+          <input
+            type="text"
+            [formControlName]="i"
+            class="form-control"
+            required
+          />
+        </div>
+      </section>
+
+      <p>
+        <button
+          class="btn btn-success"
+          type="submit"
+          [disabled]="contentForm.invalid"
+        >
+          <i class="fas fa-save"></i>Add
+        </button>
+        <button (click)="clear()" class="btn btn-warning" type="submit">
+          <i class="fas fa-snowplow"></i>Clear
+        </button>
+      </p>
+    </form>
+  </div>
+</div>

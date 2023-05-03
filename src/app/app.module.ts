@@ -10,7 +10,8 @@ import { FooterComponent } from './footer/footer.component';
 import { ProductdetailsComponent } from './productdetails/productdetails.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { AddproductformComponent } from './addproductform/addproductform.component';
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { NgxFileDropModule } from 'ngx-file-drop';
 
 
 @NgModule({
@@ -26,7 +27,11 @@ import { AddproductformComponent } from './addproductform/addproductform.compone
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    NoopAnimationsModule
+    NoopAnimationsModule,
+    FormsModule,
+    ReactiveFormsModule,
+    NgxFileDropModule
+  
   ],
   providers: [],
   bootstrap: [AppComponent]

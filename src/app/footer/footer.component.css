@@ -8,15 +8,7 @@ h1{
   font-family: 'DM Sans', sans-serif;
 }
 
-/* .container {
-  display: flex;
-  align-items: center;
-  margin: 0;
-  padding: 1rem;
 
-  background-color: #4a4a4a;
-}
- */
 .container {
   margin: 2rem auto 0rem;
   display: flex;
