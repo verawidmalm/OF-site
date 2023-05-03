@@ -1,4 +1,18 @@
+
+
 body {
   background-color: whitesmoke;
   padding: 0;
+}
+
+.btn-primary{
+  background-color: transparent;
+  border: none;
+  color: black;
+}
+
+.btn-primary:active{
+  background-color: whitesmoke;
+  color: black;
+
 }
